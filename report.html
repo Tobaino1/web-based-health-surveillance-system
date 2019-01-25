@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> Report Screen</title>
+
+  <script type='text/javascript' src='jquery.js'></script>
+  <link rel="stylesheet" href="demo.css"/>
+  <link rel="stylesheet" href="jquery.orgchart.css"/>
+  <script src="jquery.orgchart.js"></script>
+   <script type='text/javascript'>
+
+$(function(){
+var members;
+$.ajax({
+	url:'load.php',
+	async:false,
+	success:function(data){
+		members=$.parseJSON(data)
+	}
+})
+
+		//memberId,parentId,otherInfo
+		for(var i = 0; i < members.length; i++){
+
+		    var member = members[i];
+
+			if(i==0){
+				$("#mainContainer").append("<li id="+member.memberId+">"+member.otherInfo+"</li>")
+			}else{
+
+				if($('#pr_'+member.parentId).length<=0){
+				  $('#'+member.parentId).append("<ul id='pr_"+member.parentId+"'><li id="+member.memberId+">"+member.otherInfo+"</li></ul>")
+				}
+				else{
+				  $('#pr_'+member.parentId).append("<li id="+member.memberId+">"+member.otherInfo+"</li>")
+			     }
+
+			}
+		}
+
+
+
+
+	$("#mainContainer").orgChart({container: $("#main"),interactive: true, fade: true, speed: 'slow'});
+
+});
+
+
+</script>
+
+
+</head>
+<body>
+<h1 align="center"> HEALTH SURVEILLANCE SYSTEM  </h1>
+<h3 align="center"> REPORT SCREEN </h3>
+<nav class="site-navigation d-flex justify-content-end align-items-center">
+    <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+        <li class="current-menu-item"><a href="index.html">Home</a></li>
+        <li><a href="view_disease.php">View Disease Related Ailments</a></li>
+        <li><a href="report.html">Report Screen</a></li>
+        <li><a href="lodge_login.php">Lodge Disease Related Ailments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+</nav>
+<div  style="display: none">
+
+
+<ul id="mainContainer" class="clearfix"></ul>
+
+</div>
+<div id="main">
+
+
+</div>
+
+
+
+
+
+<footer class="site-footer">
+    <div class="footer-widgets">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-12 col-md-6 col-lg-4">-->
+                <div class="foot-about">
+                    <!--<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>-->
+
+                    <p align="center">A project research by Williams Omobolaji for the Award of MSc</p>
+
+                    <p align="center" class="copyright">
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | Dept. Computer Science, Lagos State University <i aria-hidden="true"
+                                                                                                class="fa fa-heart"></i> by <a
+                            href="https://github/Tobaino1.com" target="_blank"> </a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div><!-- .foot-about -->
+                <!--</div>-->
+                <!-- .col -->
+
+
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .footer-widgets -->
+</footer><!-- .site-footer -->
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
