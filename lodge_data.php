@@ -39,7 +39,7 @@ ini_set('display_errors', '1');
                     <nav class="site-navigation d-flex justify-content-end align-items-center">
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="report.html">Report Screen</a></li>
+                            <li><a href="Org/chart/report.html">Report Screen</a></li>
                             <li><a href="lodge_data.php">Lodge Disease Related Ailments</a></li>
 
                         </ul>
@@ -118,7 +118,7 @@ ini_set('display_errors', '1');
 
 
 
-                    <br><br>
+<!--                    <br><br>-->
 
 
                     <h2>Disease / ailment related lodging for Report Screen </h2>

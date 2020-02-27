@@ -5,15 +5,15 @@
   <title> Report Screen</title>
 
   <script type='text/javascript' src='jquery.js'></script>
-  <link rel="stylesheet" href="demo.css"/>
-  <link rel="stylesheet" href="jquery.orgchart.css"/>
+  <link rel="stylesheet" href="../../demo.css"/>
+  <link rel="stylesheet" href="../../jquery.orgchart.css"/>
   <script src="jquery.orgchart.js"></script>
    <script type='text/javascript'>
 
 $(function(){
 var members;
 $.ajax({
-	url:'load.php',
+	url:'../../load.php',
 	async:false,
 	success:function(data){
 		members=$.parseJSON(data)
@@ -39,13 +39,9 @@ $.ajax({
 			}
 		}
 
-
-
-
 	$("#mainContainer").orgChart({container: $("#main"),interactive: true, fade: true, speed: 'slow'});
 
 });
-
 
 </script>
 
@@ -56,11 +52,11 @@ $.ajax({
 <h3 align="center"> REPORT SCREEN </h3>
 <nav class="site-navigation d-flex justify-content-end align-items-center">
     <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-        <li class="current-menu-item"><a href="index.html">Home</a></li>
-        <li><a href="view_disease.php">View Disease Related Ailments</a></li>
+        <li class="current-menu-item"><a href="../../index.html">Home</a></li>
+        <li><a href="../../view_disease.php">View Disease Related Ailments</a></li>
         <li><a href="report.html">Report Screen</a></li>
-        <li><a href="lodge_login.php">Lodge Disease Related Ailments</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../../lodge_login.php">Lodge Disease Related Ailments</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
 
     </ul>
 </nav>

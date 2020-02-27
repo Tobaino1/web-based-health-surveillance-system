@@ -20,7 +20,7 @@ if ($conn === false) {
 }
 
 $sql = "INSERT INTO report (user, parent)
-VALUES ('$user','$parent' )";
+VALUES ('$user','$parent')";
 
 
 if (mysqli_query($conn, $sql)) {

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afdd48be-f149-4da1-ba1f-5911efa17969" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbcon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback_success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load.php" beforeDir="false" afterPath="$PROJECT_DIR$/load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lodge_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/lodge_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lodge_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/lodge_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logde_data_db_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/logde_data_db_report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Org/chart/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_disease.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_disease.php" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="onlinereg.db [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lodge_data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2074">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logde_data_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="2" selection-end-line="28" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feedback_success.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lodge_login.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbcon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/loginserve.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/confirm.php" />
+        <option value="$PROJECT_DIR$/Org/chart/load.php" />
+        <option value="$PROJECT_DIR$/Org/chart/demo.css" />
+        <option value="$PROJECT_DIR$/Org/chart/jquery.orgchart.css" />
+        <option value="$PROJECT_DIR$/Org/chart/jquery.orgchart.js" />
+        <option value="$PROJECT_DIR$/report.php" />
+        <option value="$PROJECT_DIR$/Org/chart/index.html" />
+        <option value="$PROJECT_DIR$/report.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/logde_data_db.php" />
+        <option value="$PROJECT_DIR$/view_disease.php" />
+        <option value="$PROJECT_DIR$/logde_data_db_report.php" />
+        <option value="$PROJECT_DIR$/load.php" />
+        <option value="$PROJECT_DIR$/Org/chart/report.html" />
+        <option value="$PROJECT_DIR$/lodge_data.php" />
+        <option value="$PROJECT_DIR$/dbcon.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/lodge_login.php" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/success.php" />
+        <option value="$PROJECT_DIR$/feedback_success.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="36" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web-based-health-surveillance-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-based-health-surveillance-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-based-health-surveillance-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-based-health-surveillance-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-based-health-surveillance-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-based-health-surveillance-system" type="462c0819:PsiDirectoryNode" />
+              <item name="Org" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lagosreporter49ja" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\web-based-health-surveillance-system\Org\chart" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afdd48be-f149-4da1-ba1f-5911efa17969" name="Default Changelist" comment="" />
+      <created>1547855511714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547855511714</updated>
+      <workItem from="1547855517548" duration="1270000" />
+      <workItem from="1548055140428" duration="7650000" />
+      <workItem from="1548103234509" duration="580000" />
+      <workItem from="1548136336288" duration="583000" />
+      <workItem from="1548145004702" duration="277000" />
+      <workItem from="1548147003842" duration="585000" />
+      <workItem from="1548178569045" duration="583000" />
+      <workItem from="1548181041963" duration="21369000" />
+      <workItem from="1548293492932" duration="1919000" />
+      <workItem from="1548365698006" duration="208000" />
+      <workItem from="1548429777608" duration="722000" />
+      <workItem from="1548498217423" duration="580000" />
+      <workItem from="1548657395403" duration="392000" />
+      <workItem from="1548658077782" duration="1402000" />
+      <workItem from="1548668657269" duration="593000" />
+      <workItem from="1548677765491" duration="596000" />
+      <workItem from="1548685464447" duration="656000" />
+      <workItem from="1548743736550" duration="589000" />
+      <workItem from="1548746892376" duration="596000" />
+      <workItem from="1548757763607" duration="597000" />
+      <workItem from="1548758702284" duration="590000" />
+      <workItem from="1548845966786" duration="3299000" />
+      <workItem from="1549044631835" duration="147000" />
+      <workItem from="1549227828876" duration="584000" />
+      <workItem from="1549263781682" duration="604000" />
+      <workItem from="1549265291012" duration="598000" />
+      <workItem from="1549566134735" duration="599000" />
+      <workItem from="1550143231822" duration="570000" />
+      <workItem from="1550342397650" duration="2333000" />
+      <workItem from="1550658555183" duration="711000" />
+      <workItem from="1551174744957" duration="8239000" />
+      <workItem from="1551434093856" duration="678000" />
+      <workItem from="1551439102715" duration="598000" />
+      <workItem from="1551442508350" duration="599000" />
+      <workItem from="1551464096800" duration="111000" />
+      <workItem from="1551483429908" duration="597000" />
+      <workItem from="1551486075260" duration="570000" />
+      <workItem from="1551536205198" duration="571000" />
+      <workItem from="1551538326100" duration="588000" />
+      <workItem from="1551542491701" duration="523000" />
+      <workItem from="1551565158568" duration="598000" />
+      <workItem from="1551567771498" duration="572000" />
+      <workItem from="1551587361979" duration="1753000" />
+      <workItem from="1551598576772" duration="2536000" />
+      <workItem from="1551613734881" duration="582000" />
+      <workItem from="1551619702176" duration="566000" />
+      <workItem from="1551642057744" duration="597000" />
+      <workItem from="1551696027910" duration="552000" />
+      <workItem from="1551782560236" duration="579000" />
+      <workItem from="1551865706850" duration="540000" />
+      <workItem from="1551876056437" duration="585000" />
+      <workItem from="1551899631298" duration="587000" />
+      <workItem from="1552200358194" duration="570000" />
+      <workItem from="1566823180468" duration="3432000" />
+      <workItem from="1566986602317" duration="4173000" />
+      <workItem from="1567021560349" duration="6093000" />
+      <workItem from="1567435535839" duration="1310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="92715000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2377892" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32792792" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.080976866" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/baa14d5c-6f6e-400a-a29d-1bc802bcc1b8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://baa14d5c-6f6e-400a-a29d-1bc802bcc1b8/schema/main/table/Registrations" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7f64864-6a27-405d-b7c4-42ec207faed0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://c7f64864-6a27-405d-b7c4-42ec207faed0/schema/main/table/Registrations" />
+    <entry file="das://baa14d5c-6f6e-400a-a29d-1bc802bcc1b8/schema/main/table/sqlite_master" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/82e005d3-265e-4cdd-ac92-0632732fa5fb/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Candidates" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Biodatas" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Assessments" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/AspNetUsers" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/AspNetUserRoles" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/AspNetRoles" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/sqlite_sequence" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/sqlite_master" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Secure" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Registrations" />
+    <entry file="das://c7f64864-6a27-405d-b7c4-42ec207faed0/schema/main/table/Candidates" />
+    <entry file="das://c7f64864-6a27-405d-b7c4-42ec207faed0/schema/main/table/Populations" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d95d8d7f-6480-43cd-9052-847adbc66400/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://d95d8d7f-6480-43cd-9052-847adbc66400/schema/main/table/Populations" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Populations" />
+    <entry file="das://82e005d3-265e-4cdd-ac92-0632732fa5fb/schema/main/table/Subjects" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b6c212b2-4d8c-4f38-9eb6-54154627809f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://b6c212b2-4d8c-4f38-9eb6-54154627809f/schema/main/table/Registrations" />
+    <entry file="das://b6c212b2-4d8c-4f38-9eb6-54154627809f/schema/main/table/Populations" />
+    <entry file="das://899ab9a9-bf00-471c-996c-888ecc8a9a74/schema/main/table/Populations" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/899ab9a9-bf00-471c-996c-888ecc8a9a74/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view_disease.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="97" column="28" selection-start-line="97" selection-end-line="98" />
+          <folding>
+            <element signature="e#4720#4726#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elements.html" />
+    <entry file="file://$PROJECT_DIR$/logde_data_db_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Org/chart/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Org/chart/jquery.orgchart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="155" column="35" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Org/chart/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.orgchart.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="75" lean-forward="true" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodge_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logde_data_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feedback_success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodge_login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

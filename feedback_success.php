@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>lodge disease</title>
+    <title>success ~ feedback</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -33,7 +33,7 @@ ini_set('display_errors', 1);
 
                     </div><!-- .site-branding -->
 
-                    
+
 
                     <div class="hamburger-menu d-lg-none">
                         <span></span>
@@ -50,18 +50,18 @@ ini_set('display_errors', 1);
         <div class="row">
             <div class="col-12">
                 <br><br>
-                <h3>Disease / Ailment Success page</h3>
+                <h3>Feedback Success page</h3>
 
                 <div class="breadcrumbs">
                     <br> <br>
-                 <marquee> The information has been successfully lodged into the database, visitors can get to see them via the view disease related ailments on the menu bar </marquee>
+                    <marquee> Thank you, the information has been successfully sent, it will be reviewed as soon as possible </marquee>
                     <br> <br><br>
-           <h2>The information has been successfully lodged into the database</h2>
-           <p> kindly go back by using any of the following links below
-           <li class="current-menu-item"><a href="index.html">Home</a></li>
-                        <li><a href="view_disease.php">View Disease Related Ailments</a></li>
-                        <li><a href="Org/chart/report.html">Report Screen</a></li>
-                        <li><a href="lodge_data.php">Lodge Disease Related Ailments</a></li>
+                    <h2>we appreciate your feedback</h2>
+                    <p> kindly go back by using any of the following links below
+                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                    <li><a href="view_disease.php">View Disease Related Ailments</a></li>
+                    <li><a href="Org/chart/report.html">Report Screen</a></li>
+                    <li><a href="lodge_data.php">Lodge Disease Related Ailments</a></li>
 
                     <!--</ul>-->
                 </div><!-- .breadcrumbs -->
@@ -78,18 +78,18 @@ ini_set('display_errors', 1);
         <div class="container">
             <div class="row">
                 <!--<div class="col-12 col-md-6 col-lg-4">-->
-                    <div class="foot-about">
-                        <!--<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>-->
+                <div class="foot-about">
+                    <!--<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>-->
 
-                        <p align="center">A project research by Williams Omobolaji for the Award of MSc</p>
+                    <p align="center">A project research by Williams Omobolaji for the Award of MSc</p>
 
-                        <p align="center" class="copyright">
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                            All rights reserved | Dept. Computer Science, Lagos State University <i aria-hidden="true"
-                                                                                                    class="fa fa-heart"></i> by <a
-                                href="https://github/Tobaino1.com" target="_blank">Tobaino</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div><!-- .foot-about -->
+                    <p align="center" class="copyright">
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                        All rights reserved | Dept. Computer Science, Lagos State University <i aria-hidden="true"
+                                                                                                class="fa fa-heart"></i> by <a
+                            href="https://github/Tobaino1.com" target="_blank">Tobaino</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div><!-- .foot-about -->
                 <!--</div>-->
                 <!-- .col -->
 

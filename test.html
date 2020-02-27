@@ -1,0 +1,82 @@
+{{--<h4> Subscription Mode </h4>--}}
+{{--<p> SUBSCRIPTION AMOUNT DESCRIPTION (Please select one of the 3 category below)</p>--}}
+
+{{--<div class="form-group row">--}}
+    {{--<label for="subscription_mode"--}}
+               {{--class="col-md-4 col-form-label text-md-right">{{ __('Subscription mode') }}</label>--}}
+
+    {{--<div class="col-md-6">--}}
+        {{--<select name="subscription_mode" id="subscription_mode" onchange="changeCat(this);"--}}
+                    {{--class="form-control{{ $errors->has('payment_method') ? ' is-invalid' : '' }}">--}}
+            {{--<option value="">Select</option>--}}
+            {{--<option value="monthly">Monthly</option>--}}
+            {{--<option value="quarterly">Quarterly</option>--}}
+            {{--<option value="annually">Annually</option>--}}
+            {{--</select>--}}
+        {{--</div>--}}
+
+
+
+    {{--// mega drop down (super drop down)--}}
+
+    {{--<div class="form-group row">--}}
+        {{--<label for="subscription_mode"--}}
+                   {{--class="col-md-4 col-form-label text-md-right">{{ __('Subscription amount description') }}</label>--}}
+
+        {{--<div class="col-md-6">--}}
+            {{--<select name="subscription_mode" id="category" size="5"--}}
+                        {{--class="form-control{{ $errors->has('payment_method') ? ' is-invalid' : '' }}">--}}
+                {{--<option value="">Select</option>--}}
+                {{--</select>--}}
+
+            {{--<span class="invalid-feedback" role="alert">--}}
+                            {{--<strong>{{ $errors->first('subscription_mode') }}</strong>--}}
+                            {{--</span>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+
+
+{{--<script>--}}
+{{--let monthly = ["5products/servicespictures #1,000", "10products/servicespictures #2,000", "20produtcs/servicespictures #4,000", "30products/servicespictures #5,700", "Artisans #500", "Professionals #1000"];--}}
+{{--let quarterly = ["5products/servicespictures #3,000", "10products/servicespictures #6,000", "20produtcs/servicespictures #12,000", "30products/servicespictures #17,100", "Artisans #1500", "Professionals #3,000"];--}}
+{{--let annually = ["5products/servicespictures #12,000", "10products/servicespictures #24,000", "20produtcs/servicespictures #48,000", "30products/servicespictures #68,400", "Artisans #12,000", "Professionals #24,000"];--}}
+
+{{--let changeCat = function changeCat(firstList) {--}}
+    {{--let newSel = document.getElementById("category");--}}
+    {{--//if you want to remove this default option use newSel.innerHTML=""--}}
+        {{--newSel.innerHTML = "<option value=\"\">Select</option>"; // to reset the second list everytime--}}
+        {{--let opt;--}}
+
+        {{--//test according to the selected value--}}
+            {{--switch (firstList.options[firstList.selectedIndex].value) {--}}
+            {{--case "monthly":--}}
+            {{--for (let i = 0; len = monthly.length, i < len; i++) {--}}
+                {{--opt = document.createElement("option");--}}
+                {{--opt.value = monthly[i];--}}
+                {{--opt.text = monthly[i];--}}
+                {{--newSel.appendChild(opt);--}}
+                {{--}--}}
+            {{--break;--}}
+
+            {{--case "quarterly":--}}
+            {{--for (let i = 0; len = quarterly.length, i < len; i++) {--}}
+                {{--opt = document.createElement("option");--}}
+                {{--opt.value = quarterly[i];--}}
+                {{--opt.text = quarterly[i];--}}
+                {{--newSel.appendChild(opt);--}}
+                {{--}--}}
+            {{--break;--}}
+            {{--case "annually":--}}
+            {{--for (let i = 0; len = annually.length, i < len; i++) {--}}
+                {{--opt = document.createElement("option");--}}
+                {{--opt.value = annually[i];--}}
+                {{--opt.text = annually[i];--}}
+                {{--newSel.appendChild(opt);--}}
+                {{--}--}}
+            {{--break;--}}
+            {{--}--}}
+
+            {{--}--}}
+
+            {{--</script>--}}

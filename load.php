@@ -4,11 +4,11 @@ function getConnection() {
 	$dbuser="root";
 	$dbpass="";
 	$dbname="health_surveillance_system";
-	$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);	
+	$dbh = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	return $dbh;
 }
-	$sql = "select id as memberId, parent as parentId  ,user as otherInfo from report";
+	$sql = "select id as memberId, parent as parentId,user as otherInfo from report";
 
 //$sql = "select user, parent, mortality_spread_rate from report";
 	try {

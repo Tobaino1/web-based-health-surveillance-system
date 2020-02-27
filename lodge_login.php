@@ -1,23 +1,6 @@
-<?php
-include_once("confirm.php");
-if(isset($_POST['login']))
-{
-    $email=$_POST['username'];
-    $password=$_POST['password'];
-    $ret= mysqli_query("SELECT * FROM admin_login WHERE username='$username' and password='$password'");
-    $num=mysqli_fetch_array($ret);
-    if($num>0)
-    {
-        header("location: lodge_data.php ");
-    }
-    else
-    {
-       echo "incorrect username / password";
-    }
-}
-?>
-
-
+<?php //session_start(); ?>
+<!---->
+<?php //include('dbcon.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +36,7 @@ if(isset($_POST['login']))
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
                             <li><a href="view_disease.php">View Disease Related Ailments</a></li>
-                            <li><a href="report.html">Report Screen</a></li>
+                            <li><a href="Org/chart/report.html">Report Screen</a></li>
                             <li><a href="lodge_login.php">Lodge Disease Related Ailments</a></li>
                             <li><a href="contact.html">Contact</a></li>
 
@@ -85,35 +68,61 @@ if(isset($_POST['login']))
                     <!--<ul class="d-flex flex-wrap align-items-center p-0 m-0">-->
                     <br>
                     <h4>Only the admin(s) / designated personnel(s) </h4>
-                        <h4>have access to this operation </h4>
-
-                    <li>If you have any information that you want us lodge about any disease related ailments </li>
-
-                    <li>kindly use the contact form via the contact link on the menu bar and your request will be processed.</li>
-
-<!--                      <form action="confirm.php" method="post">-->
+                        <h4> have access to this operation </h4>
+                    <li>If you have any information that you want us lodge about any disease related ailments, </li>
+                       <li> kindly use the contact form via the contact link on the menu bar and your request will be processed </li>
 <!---->
-<!--                        <div class="modal-body" >-->
+<!--                    <li>kindly use the contact form via the contact link on the menu bar and your request will be processed.</li>-->
+<br><br>
+<!--                    <form action="#" method="post">-->
+<!--                        <h3>ADMINISTRATOR'S  LOGIN PAGE</h3>-->
 <!---->
-<!--                            <div class="text-fields">-->
-<!--                                <div class="float-input">-->
-<!--                                    <span><i class="fa fa-user"></i></span>-->
-<!--                                    <input id="username" name="username" placeholder="Username" required="required" size="50"-->
-<!--                                           type="text">-->
-<!--                                </div>-->
-<!--                                <br>-->
-<!--                                <div class="float-input">-->
-<!--                                    <span><i class="fa fa-key"></i></span>-->
-<!--                                    <input id="password" name="password" placeholder="Password" required="required" size="50"-->
-<!--                                           type="password">-->
-<!--                                </div>-->
-<!--                                <br>-->
-<!---->
-<!---->
-<!--                                <input type="reset" value="Reset">-->
-<!--                                <input type="submit" value="Submit">-->
+<!--                        <div class="form-item">-->
+<!--                            <span><i class="fa fa-user" style="color: green"></i></span>-->
+<!--                            <input type="text" name="user" required="required" placeholder="Username" autofocus required></input>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        <div class="form-item">-->
+<!--                            <span><i class="fa fa-key" style="color: green"></i></span>-->
+<!--                            <input type="password" name="pass" required="required" placeholder="Password" required></input>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        <div class="button-panel">-->
+<!--                            <input type="submit" class="button" title="Log In" name="login" value="Login"></input>-->
+<!--                        </div>-->
 <!--                    </form>-->
-                    </ul>
+
+                    <!--<div class="form-wrapper">-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    --><?php
+//    if (isset($_POST['login']))
+//    {
+//        $username = mysqli_real_escape_string($con, $_POST['user']);
+//        $password = mysqli_real_escape_string($con, $_POST['pass']);
+//
+//        $query 		= mysqli_query($con, "SELECT * FROM users WHERE  username='$username and 'password='$password' ");
+//        $row		= mysqli_fetch_array($query);
+//        $num_row 	= mysqli_num_rows($query);
+//
+//        if ($num_row > 0)
+//        {
+////            $_SESSION['user_id']=$row['user_id'];
+//            header('location:lodge_data.php');
+////
+//        }
+//        else
+//        {
+//            echo 'Invalid Username and Password Combination';
+//        }
+//    }
+//    ?>
+
+
+    </ul>
                 </div><!-- .breadcrumbs -->
             </div>
         </div>

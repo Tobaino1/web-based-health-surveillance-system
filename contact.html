@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello World</title>
+    <title>Contact us</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,7 +30,7 @@
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                                 <li class="current-menu-item"><a href="index.html">Home</a></li>
                                 <li><a href="view_disease.php">View Disease Related Ailments</a></li>
-                                <li><a href="report.html">Report Screen</a></li>
+                                <li><a href="Org/chart/report.html">Report Screen</a></li>
                                 <li><a href="lodge_login.php">Lodge Disease Related Ailments</a></li>
                                 <li><a href="contact.html">Contact</a></li>
     
@@ -113,26 +113,26 @@
             <div class="col-12">
                 <h2>Get in Touch with our contact / feedback form</h2>
             </div>
-            <form action="" method="post">
+            <form action="contact.php" method="post">
 
             <div class="col-12">
-                <input placeholder="Name" type="text" required>
+                <input placeholder="Name" type="text"  name="name" required>
             </div><!-- col-4 -->
 
             <div class="col-12">
-                <input placeholder="E-mail" type="email" required>
+                <input placeholder="E-mail" type="email"  name="email" required>
             </div><!-- col-6 -->
 
             <div class="col-12">
-                <input placeholder="Subject" type="text" required>
+                <input placeholder="Subject" type="text" name="subject" required>
             </div>
 
             <div class="col-12">
-                <textarea cols="80" name="name" placeholder="Message" rows="12" required></textarea>
+                <textarea cols="80" name="message" placeholder="Message" rows="12" required></textarea>
             </div>
 
             <div class="col-12">
-                <input class="button gradient-bg" name="" type="submit" value="Send Message">
+                <input class="button gradient-bg" type="submit" value="Send Message">
             </div></form>
         </div><!-- row -->
     </div>

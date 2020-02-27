@@ -1,5 +1,5 @@
 <?php
-$conn=new PDO('mysql:host=localhost; dbname=health_surveillance_system', 'root', '') or die(mysql_error());
+$conn=new PDO('mysql:host=localhost; dbname=health_surveillance_system', 'root', '');
 
 ?>
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ $conn=new PDO('mysql:host=localhost; dbname=health_surveillance_system', 'root',
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
                             <li><a href="view_disease.php">View Disease Related Ailments</a></li>
-                            <li><a href="report.html">Report Screen</a></li>
+                            <li><a href="Org/chart/report.html">Report Screen</a></li>
                             <li><a href="lodge_login.php">Lodge Disease Related Ailments</a></li>
                             <li><a href="contact.html">Contact</a></li>
 
@@ -83,8 +83,13 @@ $conn=new PDO('mysql:host=localhost; dbname=health_surveillance_system', 'root',
 				</tr>
 			</thead>
 			<?php
-			$query=$conn->query("select * from disease order by id desc");
-			while($row=$query->fetch()){
+//			$query=$conn->query("select * from disease order by id desc");
+            $query=$conn->query("select * from disease");
+
+
+//            while ($row = mysqli_fetch_array($query)){
+            			while($row=$query->fetch()) {
+
                 $disease_name=$row['disease_name'];
                 $possible_symptoms=$row['possible_symptoms'];
 				$area_community=$row['area_community'];
@@ -138,36 +143,36 @@ $conn=new PDO('mysql:host=localhost; dbname=health_surveillance_system', 'root',
 
 				</tr>
 			</thead>
-			<?php
-			$query=$conn->query("select * from disease order by id desc");
-			while($row=$query->fetch()){
-                $disease_name=$row['disease_name'];
-                $possible_symptoms=$row['possible_symptoms'];
-				$area_community=$row['area_community'];
-				$affected_people=$row['affected_people'];
-				$spread_mortality_rate=$row['spread_mortality_rate'];
-				$id=$row['id'];
-			?>
-			<tr>
-			
-				<td>
-					&nbsp;<?php echo $disease_name ;?>  </td>
-
-								<td>		&nbsp;<?php echo $possible_symptoms ;?>  </td>
-				<td>	&nbsp;<?php echo $area_community ;?>
-
-				</td>
-				<td>
-                &nbsp;<?php echo $affected_people ;?>
-                </td>
-                <td>
-                &nbsp;<?php echo $spread_mortality_rate ;?>
-                </td>
-                <td>                 &nbsp;<?php echo $id ;?> </td>
-
-			</tr>
-			<?php }?>
-		</table> -->
+<!--			--><?php
+//			$query=$conn->query("select * from disease order by id desc");
+//			while($row=$query->fetch()){
+//                $disease_name=$row['disease_name'];
+//                $possible_symptoms=$row['possible_symptoms'];
+//				$area_community=$row['area_community'];
+//				$affected_people=$row['affected_people'];
+//				$spread_mortality_rate=$row['spread_mortality_rate'];
+//				$id=$row['id'];
+//			?>
+<!--			<tr>-->
+<!--			-->
+<!--				<td>-->
+<!--					&nbsp;--><?php //echo $disease_name ;?><!--  </td>-->
+<!---->
+<!--								<td>		&nbsp;--><?php //echo $possible_symptoms ;?><!--  </td>-->
+<!--				<td>	&nbsp;--><?php //echo $area_community ;?>
+<!---->
+<!--				</td>-->
+<!--				<td>-->
+<!--                &nbsp;--><?php //echo $affected_people ;?>
+<!--                </td>-->
+<!--                <td>-->
+<!--                &nbsp;--><?php //echo $spread_mortality_rate ;?>
+<!--                </td>-->
+<!--                <td>                 &nbsp;--><?php //echo $id ;?><!-- </td>-->
+<!---->
+<!--			</tr>-->
+<!--			--><?php //}?>
+<!--		</table> -->
             </div>
 
             <div class="col-12 col-lg-6 mt-5 mt-lg-0">
