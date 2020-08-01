@@ -1,6 +1,5 @@
-
-<!-- <?php session_start(); ?>
- --><?php 
+ 
+ <?php 
  include('dbcon.php'); 
 
 if (isset($_POST['login'])) {
@@ -12,7 +11,7 @@ if (isset($_POST['login'])) {
     $num_row = mysqli_num_rows($query);
 
     if ($num_row > 0) {
-        // $_SESSION['user_id'] = $row['user_id'];
+         $_SESSION['username'] = $row['username'];
        
             header("location: lodge_data.php");
     } else {
