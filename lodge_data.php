@@ -2,6 +2,9 @@
 ini_set('display_errors', '1');
 ?>
 
+<?php
+session_start();
+?> 
 
 
 
@@ -38,10 +41,10 @@ ini_set('display_errors', '1');
 
                     <nav class="site-navigation d-flex justify-content-end align-items-center">
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                            <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="Org/chart/report.html">Report Screen</a></li>
+                           <li class="current-menu-item"><a href="lodge_data.php">Home</a></li>
                             <li><a href="lodge_data.php">Lodge Disease Related Ailments</a></li>
-
+                            <li><a href="sentinel_input.php">Sentinel Feed Form</a></li>
+                            <li><a href="logout.php">Logout</a></li>
                         </ul>
                     </nav><!-- .site-navigation
 
@@ -59,8 +62,42 @@ ini_set('display_errors', '1');
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>ADMIN'S PAGE</h2>
+                <h2 align="center">ADMIN'S PAGE</h2>
+              <h3>lodging form for real time feeds</h3>
 
+                 <form action="sentinel_data.php" method="post">
+
+                        <div class="modal-body" >
+
+                            <div class="text-fields">
+                                <div class="float-input">
+                                    <span><i class="fa fa-book"></i></span>
+                                    <input id="location" name="location" placeholder="Location" required="required" size="20"
+                                           type="text">
+                                </div>
+                                <br>
+                                <div class="float-input">
+                                    <span><i class="fa fa-calendar"></i></span>
+                                    <input id="days" name="days" placeholder="Days" required="required" size="20"
+                                           type="Number">
+                                </div>
+                                <BR>
+                                <div class="float-input">
+                                    <span><i class="fa fa-building"></i></span>
+                                    <input id="no_of_cases" name="no_of_cases" placeholder="Number of Cases" required="required" size="20"
+                                           type="text">
+                                </div>
+                                <br>
+           
+                                <input type="reset" value="Reset">
+                                <input type="submit" value="Submit">
+                    </form>
+
+
+
+                    <br><br>
+
+                    <hr/>
                 <h3>Disease / Ailment lodging form </h3>
 
                 <div class="breadcrumbs">
@@ -118,8 +155,9 @@ ini_set('display_errors', '1');
 
 
 
-<!--                    <br><br>-->
+                    <br><br>
 
+                    <hr/>
 
                     <h2>Disease / ailment related lodging for Report Screen </h2>
                     <li>lodge disease related ailments by using the form  below</li>
@@ -155,13 +193,10 @@ ini_set('display_errors', '1');
                                     <option value="2">Plague</option>
 
                                 </select></div>
-                               <br>
-
-
                                 <input type="reset" value="Reset">
                                 <input type="submit" value="Submit">
                     </form>
-
+                    <hr/>
 
                     <!--</ul>-->
                 </div><!-- .breadcrumbs -->
